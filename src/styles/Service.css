@@ -1,0 +1,16 @@
+.service {
+  border: 3px solid gainsboro;
+  border-radius: 5px;
+  background-color: white;
+  height: 150px;
+  width: 150px;
+  margin: 3em;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  text-decoration: none;
+  color: #405d78;
+}
+.service:hover {
+  background-color: gainsboro;
+}

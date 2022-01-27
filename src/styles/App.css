@@ -1,0 +1,102 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: skyblue;
+}
+#container {
+  width: 960px;
+  height: 100vh;
+  margin: auto;
+  margin-top: -10px;
+}
+#top {
+  width: auto;
+  background-color: #333333;
+  padding: 30px 0px;
+  width: 960px;
+  display: flex;
+}
+#top_sidebar {
+  margin-left: 20vw;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.top_nav {
+  padding: 10px;
+}
+.companyName {
+  padding-left: 50px;
+  font-size: 20px;
+}
+.no_1 {
+  background-image: url(https://i.picsum.photos/id/795/1920/1080.jpg?hmac=WdNixjqDJa970IaHqtaMJeaIBXMm5Bh4CfpJMVLYeAs);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20em;
+  padding-left: 50px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.no_2 {
+  background-color: whitesmoke;
+}
+.specialist_box {
+  padding-bottom: 50px;
+  display: grid;
+  grid-template-rows: 150px 150px;
+  grid-template-columns: 300px 300px 300px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.no_3 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #405d78;
+}
+.heading_no_3 {
+  color: white;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.servicebox {
+  display: flex;
+  width: 800px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+}
+#footer {
+  background-color: #333333;
+  display: flex;
+  padding: 10px;
+  color: white;
+  align-items: center;
+}
+#socials {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  padding: 10px;
+}
+.fa {
+  padding: 10px;
+}
+.specialist_heading {
+  margin-top: 0px;
+  padding: 20px;
+}
+.nr_2 {
+  grid-column: 3;
+}
+.desc_1 {
+  grid-column: 2 / 4;
+}
+.desc_2 {
+  grid-column: -4 / -2;
+  text-align: right;
+}
