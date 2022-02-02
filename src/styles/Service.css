@@ -4,13 +4,13 @@
   background-color: white;
   height: 150px;
   width: 150px;
-  margin: 3em;
   justify-content: center;
   align-items: center;
-  display: inline-flex;
+  display: flex;
   text-decoration: none;
   color: #405d78;
 }
 .service:hover {
   background-color: gainsboro;
+  border-color: white;
 }
